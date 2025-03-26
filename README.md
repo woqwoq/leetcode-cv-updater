@@ -35,9 +35,13 @@ Medium: \hspace{2.45cm}{33/1816 (Beats 80.69\%)}\\
 Hard: \hspace{2.9cm}{2/812 (Beats 80.69\%)}\\
 ```
 
-Change `leetcode_username = 'cim8848'` and `cv_filename = 'cv.tex'` to one of your own and run `python3 main.py`.
+Modify `config.ini` to match values of your own 
+```
+LEETCODE_USERNAME=cim8848
+CV_FILENAME=cv.tex
+```
+Run `python3 main.py`
 
 
 # TODO
 - Rework the update process of the CV.
-- Add a dynamic config.
